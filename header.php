@@ -137,7 +137,7 @@
 
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="img/renergy_logo.png" alt="Logo" class="site-logo">
+                <img src="img/renergy_logo2.png" alt="Logo" class="site-logo">
             </a>
 
             <!-- Mobile Toggle -->

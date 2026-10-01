@@ -92,7 +92,7 @@ include 'header.php'; ?>
                 <div class="hero-content">
 
                     <span class="hero-small-title">
-                        INTERNATIONAL CONFERENCE 2027
+                        INTERNATIONAL CONFERENCE ON
                     </span>
 
                     <h1>
@@ -108,8 +108,32 @@ include 'header.php'; ?>
                     </p>
 
 
+
+
+
+                    <!-- Optional Event Information -->
+                    <div class="hero-info">
+
+                        <div class="hero-info-item">
+                            <i class="fa-regular fa-calendar"></i>
+                            <div>
+                                <small>Date</small>
+                                <strong>21–23 April 2027</strong>
+                            </div>
+                        </div>
+
+                        <div class="hero-info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <small>Location</small>
+                                <strong>Italy</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
                     <!-- Buttons -->
-                    <div class="hero-buttons">
+                    <div class="hero-buttons mt-5">
 
                         <a href="#register"
                             class="hero-btn hero-btn-primary">
@@ -134,28 +158,6 @@ include 'header.php'; ?>
                             Meet Speakers
                             <i class="fa-solid fa-users"></i>
                         </a>
-
-                    </div>
-
-
-                    <!-- Optional Event Information -->
-                    <div class="hero-info">
-
-                        <div class="hero-info-item">
-                            <i class="fa-regular fa-calendar"></i>
-                            <div>
-                                <small>Date</small>
-                                <strong>21–23 April 2027</strong>
-                            </div>
-                        </div>
-
-                        <div class="hero-info-item">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <div>
-                                <small>Location</small>
-                                <strong>Italy</strong>
-                            </div>
-                        </div>
 
                     </div>
 
@@ -201,15 +203,34 @@ include 'header.php'; ?>
                     <h3 class="ms-5 mb-0" style="font-size: x-large;font-weight: 800;text-transform: uppercase;">Decoding the Decade: Global Strategic Market Insights for the 2026–2035 Clean Energy Transition.</h3>
                 </div>
             </div>
-            <div class="d-none d-lg-block col-lg-1">
-                <div class="h-100 w-100 bg-secondary d-flex align-items-center justify-content-center">
-                    <span class="text-white" style="transform: rotate(-90deg);">Unlock the 10-Year Blueprint</span>
+            <div class="d-none  d-lg-block col-lg-1">
+                <div id="blueprintTrigger"
+                    class=" bg-secondary d-flex align-items-center justify-content-center">
+                    <span class="text-white  " style="transform: rotate(-90deg);">Unlock the 10-Year Blueprint</span>
                 </div>
             </div>
 
-            <div class="col-lg-12">
-                <img src="img/renergy_outlook.png" alt="" srcset="" width="100%">
+
+
+
+
+            <!-- Hidden Report -->
+            <div id="blueprintContent" class="col-lg-12">
+
+                <img
+                    src="img/renergy_outlook.png"
+                    alt="Renewable Energy Outlook"
+                    class="img-fluid w-100">
+
+                <a
+                    href="docs/Detailed Global Renewable Energy Market Report.docx"
+                    class="btn btn-secondary text-center mt-3 mb-3">
+                    Download Report <i class="fa-solid fa-download"></i>
+                </a>
+
             </div>
+
+
         </div>
     </div>
 </div>
@@ -289,9 +310,10 @@ include 'header.php'; ?>
     <div class="container">
         <div class="row g-5">
             <div class="col-md-12 col-lg-12 col-xl-12 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-                <div class="service-title">
-                    <h1 class="display-6 mb-4">Five Scientific Pillars. One Connected Energy Future</h1>
+                <div class="service-title text-center" style="border-radius: 20px;background: #ffff;">
+                    <!-- <h1 class="display-6 mb-4">Five Scientific Pillars. <br> One Connected Energy Future</h1> -->
                     <!-- <p class="fs-5 mb-0">We work to bring smiles, hope, and a brighter future to those in need.</p> -->
+                    <img src="img/fp.png" alt="" srcset="" style="border-radius: 20px;">
                 </div>
             </div>
             <div class="col-md-12 col-lg-12 col-xl-12">
@@ -316,7 +338,7 @@ include 'header.php'; ?>
                             <div class="btn-square bg-light mb-4">
                                 <i class="fi fi-rr-battery-bolt fa-2x text-secondary"></i>
                             </div>
-                            <h3>Advanced Renewable Generation & Energy Conversion</h3>
+                            <h3>Energy Storage, Smart Grids & Digital Energy Systems</h3>
                             <p class="mb-2">Technologies required to integrate large-scale renewable generation into reliable electricity systems.</p>
                             <p class="mb-2"><b>Topics</b></p>
                             <p class="text-dark"><i class="fa fa-check text-primary me-2"></i> Renewable Energy Storage and Long-Duration Flexibility </p>
@@ -331,7 +353,7 @@ include 'header.php'; ?>
                             <div class="btn-square bg-light mb-4">
                                 <img src="img/icons/energy-station.png" alt="" srcset="" style="width: 32px;">
                             </div>
-                            <h3>Energy Storage, Smart Grids & Digital Energy Systems</h3>
+                            <h3>Renewable Hydrogen, Power-to-X & Industrial Decarbonization</h3>
                             <p class="mb-2">Renewable electricity converted into hydrogen, fuels, chemicals and industrial energy.</p>
                             <p class="mb-2"><b>Topics</b></p>
                             <p class="text-dark"><i class="fa fa-check text-primary me-2"></i> Green Hydrogen, Electrolysers and Renewable Hydrogen Systems </p>
@@ -428,7 +450,7 @@ include 'header.php'; ?>
                 </div>
             </div>
             <div class="col-lg-6">
-                <p class="section-title bg-white text-start text-primary pe-3">Have a Topic Idea of Interest? [SUBMIT YOUR RESEARCH ABSTRACT]</p>
+                <p class="section-title bg-white text-start text-primary pe-3">Have a Topic Idea of Interest?</p>
                 <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Showcase Your Research and Contribute to the Global Scientific Exchange</h1>
                 <p class="mb-4 wow fadeIn" data-wow-delay="0.3s">If your research advances the future of renewable energy, we invite you to share it with the world. Researchers, scientists, engineers, innovators and industry experts working across AI-native energy systems, renewable–storage–grid integration, green hydrogen & Power-to-X, advanced materials & circular technologies, or renewable energy for water, cities, agriculture and resilient communities are invited to submit their abstracts and present their scientific insights to a global community of researchers, technology leaders and industry experts.</p>
                 <!-- <p class="text-dark wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-check text-primary me-2"></i>Justo magna erat amet</p>
@@ -436,7 +458,7 @@ include 'header.php'; ?>
                 <p class="text-dark wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-check text-primary me-2"></i>Clita erat ipsum et lorem et sit</p> -->
                 <div class="d-flex mt-4 wow fadeIn" data-wow-delay="0.7s">
                     <!-- <a class="btn btn-primary py-3 px-4 me-3" href="">Donate Now</a> -->
-                    <a class="btn btn-secondary py-3 px-4" href="">Submit</a>
+                    <a class="btn btn-secondary btn-abs py-3 px-4" href="">SUBMIT RESEARCH ABSTRACT</a>
                 </div>
             </div>
         </div>
@@ -561,188 +583,380 @@ include 'header.php'; ?>
 
 
         <!-- FAQ Accordion -->
-        <div class="faq-wrapper">
+        <div class="faq-wrapper ">
 
-            <div class="accordion faq-accordion" id="faqAccordion">
+            <div class="accordion faq-accordion row" id="faqAccordion">
 
-                <!-- FAQ 1 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqOne"
-                            aria-expanded="true"
-                            aria-controls="faqOne">
+                <div class="col-lg-6">
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqOne"
+                                aria-expanded="true"
+                                aria-controls="faqOne">
 
-                            <span>What does Freehand do for freight?</span>
+                                <span>1. What is RENERGY CONGRESS 2027?</span>
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                    <div id="faqOne"
-                        class="accordion-collapse collapse show"
-                        data-bs-parent="#faqAccordion">
+                        <div id="faqOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#faqAccordion">
 
-                        <div class="faq-answer">
-                            We validate carrier invoices against contracts and shipment facts,
-                            manage exceptions and disputes, support sourcing and payment
-                            workflows, and give you live spend visibility — with full auditability.
+                            <div class="faq-answer">
+                                RENERGY CONGRESS 2027 is an international scientific and technology congress focused on the rapidly evolving renewable-energy ecosystem, bringing together researchers, engineers, energy companies, technology developers, policymakers, investors, startups and emerging scientists from around the world.
+                                <br> The congress explores the transition from conventional renewable-energy generation toward intelligent, integrated and scalable energy systems, covering renewable power, energy storage, AI-enabled energy technologies, smart grids, electrification, hydrogen and circular energy solutions
+                            </div>
+
                         </div>
-
                     </div>
+
+
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqTwo"
+                                aria-expanded="false"
+                                aria-controls="faqTwo">
+
+                                <span>2. Who should attend RENERGY CONGRESS 2027?</span>
+
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
+
+                        <div id="faqTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
+
+                            <div class="faq-answer">
+                                The congress is designed for the wider renewable-energy and clean-technology ecosystem, including:
+                                • Renewable-energy researchers and scientists
+                                • Solar, wind, hydro and other renewable-energy engineers
+                                • Energy-storage and battery researchers
+                                • AI, ML and digital-energy specialists
+                                • Smart-grid and power-system researchers
+                                • Hydrogen and fuel-cell researchers
+                                • Energy-efficiency and electrification professionals
+                                • Grid operators and utilities
+                                • Energy technology and engineering companies
+                                • Clean-tech startups and innovators
+                                • Universities and research institutions
+                                • Policymakers and sustainability professionals
+                                • Investors and technology-transfer professionals
+                                • Professors, postdoctoral researchers and PhD students
+                                The emphasis is on connecting science, engineering, industry and real-world energy deployment
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqThree"
+                                aria-expanded="false"
+                                aria-controls="faqThree">
+
+                                <span>3. Is the congress suitable for renewable-energy companies and industry professionals?</span>
+
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
+
+                        <div id="faqThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
+
+                            <div class="faq-answer">
+                                Yes. RENERGY CONGRESS 2027 provides a platform for companies working across renewable generation, energy storage, smart grids, AI-enabled energy systems, hydrogen, electrification, energy management and sustainable technologies.
+                                Industry participation may include:
+                                • Technical presentations
+                                • Technology showcases
+                                • Exhibition opportunities
+                                • Industry panels
+                                • Partnership meetings
+                                • Innovation demonstrations
+                                • Research–industry collaboration
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqFour"
+                                aria-expanded="false"
+                                aria-controls="faqFour">
+
+                                <span>4. Can I submit an abstract? Are there opportunities for PhD students and early-career researchers?</span>
+
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
+
+                        <div id="faqFour"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
+
+                            <div class="faq-answer">
+                                Yes. Researchers are invited to submit original research, emerging findings, technological developments, modelling studies, applied research and interdisciplinary work related to renewable energy and allied fields.
+                                Researchers may have opportunities for:
+                                • Oral presentations
+                                • Poster presentations
+                                • Technical discussions
+                                • Networking with international experts
+                                • Interdisciplinary collaborations
+                                • Industry interaction
+                                • Workshops and training
+                                • Career and professional networking
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqFive"
+                                aria-expanded="false"
+                                aria-controls="faqFive">
+
+                                <span>5. What makes RENERGY CONGRESS 2027 different?</span>
+
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
+
+                        <div id="faqFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
+
+                            <div class="faq-answer">
+                                RENERGY CONGRESS 2027 brings together disciplines that are increasingly interconnected but are often addressed separately—renewable generation, energy storage, AI, digital twins, smart grids, electrification, hydrogen, energy systems engineering and circular sustainability.
+                                <br> The congress is designed around the transition:
+                                <br> Renewable Generation → Intelligent Energy → Integrated Systems → Industrial Deployment → Sustainable Impact
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                  
+
                 </div>
 
+                <div class="col-lg-6">
+                      <!-- FAQ 6 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqSix"
+                                aria-expanded="false"
+                                aria-controls="faqSix">
 
-                <!-- FAQ 2 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqTwo"
-                            aria-expanded="false"
-                            aria-controls="faqTwo">
+                                <span>6. Can companies exhibit their renewable-energy technologies?</span>
 
-                            <span>What do customers typically recover?</span>
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                        <div id="faqSix"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
 
-                    <div id="faqTwo"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
+                            <div class="faq-answer">
+                                Yes. The exhibition can provide a dedicated platform for companies, startups and technology developers working in areas such as:
+                                <br> Solar | Wind | Hydropower | Energy Storage | Batteries | AI & Digital Energy | Smart Grids | Power Electronics | Hydrogen | Fuel Cells | Electrification | Energy Management | Grid Technologies | Circular Energy Technologies
 
-                        <div class="faq-answer">
-                            Recovery varies based on shipment volume, carrier contracts,
-                            invoice quality, and the types of exceptions identified.
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
+                    <!-- FAQ 7 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqSeven"
+                                aria-expanded="false"
+                                aria-controls="faqSeven">
 
+                                <span>7. When and where will RENERGY CONGRESS 2027 take place?</span>
 
-                <!-- FAQ 3 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqThree"
-                            aria-expanded="false"
-                            aria-controls="faqThree">
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                            <span>How is this different from a freight audit BPO?</span>
+                        <div id="faqSeven"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                            <div class="faq-answer">
+                                RENERGY CONGRESS 2027 is being developed as an international scientific congress, with the final date and venue to be officially announced by the organizing committee.
+                                <br> The event will be positioned to connect international researchers, technology companies, energy professionals and innovation communities within the European clean-energy ecosystem.
 
-                    <div id="faqThree"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
+                            </div>
 
-                        <div class="faq-answer">
-                            Our approach combines automated invoice validation, exception
-                            management, spend visibility, and workflow support rather than
-                            relying solely on traditional manual freight auditing.
                         </div>
-
                     </div>
-                </div>
 
 
-                <!-- FAQ 4 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqFour"
-                            aria-expanded="false"
-                            aria-controls="faqFour">
+                    <!-- FAQ 8 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqEight"
+                                aria-expanded="false"
+                                aria-controls="faqEight">
 
-                            <span>What modes and formats do you support?</span>
+                                <span>8. What topics will be covered at RENERGY CONGRESS 2027?</span>
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                    <div id="faqFour"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
+                        <div id="faqEight"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
 
-                        <div class="faq-answer">
-                            We support a broad range of freight modes, carrier invoice
-                            formats, contracts, shipment data, and electronic workflows.
+                            <div class="faq-answer">
+                                The scientific programme can cover the complete renewable-energy and intelligent-energy ecosystem, including:
+                                <br> Renewable Energy Generation
+                                Solar, wind, hydropower, geothermal, bioenergy and emerging renewable technologies.
+                                <br> AI-Native Renewable Energy & Autonomous Energy Systems
+                                AI/ML, digital twins, forecasting, autonomous operation, predictive maintenance, optimization and intelligent energy management.
+                                <br> Energy Storage & Flexible Energy Systems
+                                Batteries, long-duration storage, thermal storage, hydrogen storage and hybrid energy-storage systems.
+                                <br> Smart Grids & Grid Intelligence
+                                Grid integration, microgrids, distributed energy resources, demand response, power-system optimization and grid resilience.
+                                <br> Electrification & Energy Infrastructure
+                                Electric mobility, power electronics, heat pumps, industrial electrification and integrated energy infrastructure.
+                                <br> Hydrogen & Power-to-X
+                                Green hydrogen, electrolyzers, fuel cells, hydrogen infrastructure, e-fuels and sector coupling.
+                                <br> Digital Energy & Data Intelligence
+                                IoT, digital twins, cloud platforms, energy analytics, automation and real-time monitoring.
+                                <br> Sustainable & Circular Energy Systems
+                                Circular economy, sustainable materials, recycling, lifecycle assessment, low-carbon technologies and resource efficiency.
+                                <br> Energy Economics, Policy & Deployment
+                                Energy markets, financing, policy frameworks, commercialization, technology transfer and large-scale deployment.
+                                professionals and innovation communities within the European clean-energy ecosystem.
+
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
 
 
-                <!-- FAQ 5 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqFive"
-                            aria-expanded="false"
-                            aria-controls="faqFive">
+                    <!-- FAQ 9 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqNine"
+                                aria-expanded="false"
+                                aria-controls="faqNine">
 
-                            <span>How do you plug into our stack?</span>
+                                <span>9. What are the registration fees, and will financial support be available?</span>
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                    <div id="faqFive"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
+                        <div id="faqNine"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
 
-                        <div class="faq-answer">
-                            We can connect with your existing systems and workflows through
-                            supported data feeds, integrations, and configurable processes.
+                            <div class="faq-answer">
+                                Registration categories may include:
+                                <br> • Academic researchers
+                                • Industry professionals
+                                • Energy and engineering professionals
+                                • PhD students and early-career researchers
+                                • Postdoctoral researchers
+                                • Startups and innovators
+                                • Exhibitors and sponsors
+                                <br> Subject to the final conference structure, early-registration rates, student discounts, institutional participation and selected travel-support opportunities may be offered.
+
+
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
 
 
-                <!-- FAQ 6 -->
-                <div class="faq-item">
-                    <h3 class="faq-question">
-                        <button
-                            class="faq-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqSix"
-                            aria-expanded="false"
-                            aria-controls="faqSix">
+                    <!-- FAQ 10 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">
+                            <button
+                                class="faq-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqTen"
+                                aria-expanded="false"
+                                aria-controls="faqTen">
 
-                            <span>How long to get value?</span>
+                                <span>10. Why should I attend RENERGY CONGRESS 2027?</span>
 
-                            <span class="faq-icon"></span>
-                        </button>
-                    </h3>
+                                <span class="faq-icon"></span>
+                            </button>
+                        </h3>
 
-                    <div id="faqSix"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
+                        <div id="faqTen"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
 
-                        <div class="faq-answer">
-                            Implementation timelines depend on your data sources, freight
-                            volume, integrations, and operational requirements.
+                            <div class="faq-answer">
+                                RENERGY CONGRESS 2027 provides a platform to explore how renewable energy is evolving from individual generation technologies into intelligent, interconnected and integrated energy systems.
+                                <br> The congress connects the pathway:
+                                <br> Generation → Storage → Intelligence → Grid Integration → Electrification → Hydrogen → Circular Sustainability → Energy Impact
+                                <br> Participants can present research, discover emerging technologies, meet international experts, explore collaborations, engage with industry and understand the scientific and technological direction of the renewable-energy sector.
+                                <br> From renewable generation to intelligent energy systems.
+
+
+                            </div>
+
                         </div>
-
                     </div>
                 </div>
 
@@ -810,7 +1024,7 @@ include 'header.php'; ?>
         <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="section-title bg-white text-center text-primary px-3">RENERGY CONGRESS 2027</p>
             <h1 class="display-6 mb-4">DISTINGUISHED MEMBERS</h1>
-             
+
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
@@ -943,6 +1157,116 @@ include 'header.php'; ?>
 <!-- Donate End -->
 
 
+
+
+<!-- Testimonial Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="testimonial-title">
+                    <h1 class="display-6 mb-4">Distinguished Voices. Global Perspectives</h1>
+                    <p class="fs-5 mb-0">Featuring Global Plenary & Keynote Leaders.</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-8 col-xl-9">
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <div class="mb-2">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5">Education is the foundation of change. By funding schools, scholarships, and training programs, we can help children and adults unlock their potential for a better future.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                            <i class="fa fa-quote-right fa-2x"></i>
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5 class="mb-0">Alexander Bell</h5>
+                                            <span>CEO, Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <div class="mb-2">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5">Every hand extended in kindness brings us closer to a world free from suffering. Be part of a global movement dedicated to building a future where equality and compassion thrive.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                            <i class="fa fa-quote-right fa-2x"></i>
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5 class="mb-0">Donald Pakura</h5>
+                                            <span>CEO, Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <div class="mb-2">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5">Love and compassion have the power to heal. Through your donations and volunteer work, we can spread kindness and support to children, families, and communities struggling to find stability.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                            <i class="fa fa-quote-right fa-2x"></i>
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5 class="mb-0">Boris Johnson</h5>
+                                            <span>CEO, Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
 <div class="container contact-wrapper">
     <div class="row g-4">
 
@@ -1063,116 +1387,6 @@ include 'header.php'; ?>
     </div>
 </div>
 
-<!-- Testimonial Start -->
-<div class="container-fluid py-5">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                <div class="testimonial-title">
-                    <h1 class="display-6 mb-4">Distinguished Voices. Global Perspectives</h1>
-                    <p class="fs-5 mb-0">Featuring Global Plenary & Keynote Leaders.</p>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-8 col-xl-9">
-                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
-                    <div class="testimonial-item">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-md-6">
-                                <div class="testimonial-img">
-                                    <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="testimonial-text pb-5 pb-md-0">
-                                    <div class="mb-2">
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                    </div>
-                                    <p class="fs-5">Education is the foundation of change. By funding schools, scholarships, and training programs, we can help children and adults unlock their potential for a better future.</p>
-                                    <div class="d-flex align-items-center">
-                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
-                                            <i class="fa fa-quote-right fa-2x"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h5 class="mb-0">Alexander Bell</h5>
-                                            <span>CEO, Founder</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-md-6">
-                                <div class="testimonial-img">
-                                    <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="testimonial-text pb-5 pb-md-0">
-                                    <div class="mb-2">
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                    </div>
-                                    <p class="fs-5">Every hand extended in kindness brings us closer to a world free from suffering. Be part of a global movement dedicated to building a future where equality and compassion thrive.</p>
-                                    <div class="d-flex align-items-center">
-                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
-                                            <i class="fa fa-quote-right fa-2x"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h5 class="mb-0">Donald Pakura</h5>
-                                            <span>CEO, Founder</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-md-6">
-                                <div class="testimonial-img">
-                                    <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="testimonial-text pb-5 pb-md-0">
-                                    <div class="mb-2">
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                        <i class="fa fa-star text-primary"></i>
-                                    </div>
-                                    <p class="fs-5">Love and compassion have the power to heal. Through your donations and volunteer work, we can spread kindness and support to children, families, and communities struggling to find stability.</p>
-                                    <div class="d-flex align-items-center">
-                                        <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
-                                            <i class="fa fa-quote-right fa-2x"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h5 class="mb-0">Boris Johnson</h5>
-                                            <span>CEO, Founder</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonial End -->
-
-
 <!-- Newsletter Start -->
 <div class="container-fluid bg-primary py-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container">
@@ -1194,16 +1408,20 @@ include 'header.php'; ?>
 
 
 <script>
-
     function refreshCaptcha() {
         document.getElementById("captchaImg").src = "captcha.php?" + Date.now();
     }
 
     document.addEventListener("DOMContentLoaded", function() {
 
-        
-    });
 
-    </script>
+    });
+</script>
+
+<script>
+    document.getElementById("blueprintTrigger").addEventListener("click", function() {
+        document.getElementById("blueprintContent").classList.toggle("active");
+    });
+</script>
 
 <?php include 'footer.php'; ?>
